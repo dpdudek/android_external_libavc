@@ -169,8 +169,7 @@ cc_library_static {
         x86: {
             cflags: [
                 "-DX86",
-                "-msse4.2",
-                "-DDEFAULT_ARCH=D_ARCH_X86_SSE42",
+                "-DDEFAULT_ARCH=ARCH_X86_SSSE3",
             ],
 
             local_include_dirs: [
